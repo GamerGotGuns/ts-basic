@@ -1,0 +1,32 @@
+{
+	"name": "node-hello-world",
+	"version": "0.0.1",
+	"description": "It the template Created For Having Easy Starting Point with Flexible Principle To scale The Project Or just Have Fun. Have a Nice Time😎😎",
+	"main": "app.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon --exec ts-node src/app.ts",
+		"build": "tsc"
+	},
+	"keywords": [
+		"ts",
+		"Typescript",
+		"prisma",
+		"restapi",
+		"template"
+	],
+	"author": "theSwordBreaker",
+	"license": "ISC",
+	"dependencies": {
+		"@prisma/client": "^3.8.1",
+		"@types/express": "^4.17.13",
+		"@types/node": "^17.0.12",
+		"dotenv": "^16.0.1",
+		"express": "^4.17.2",
+		"nodemon": "^2.0.15",
+		"prisma": "^3.8.1",
+		"ts-node": "^10.4.0",
+		"typescript": "^4.5.5",
+		"zod": "^3.17.10"
+	}
+}
